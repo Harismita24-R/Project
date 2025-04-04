@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name - Portfolio</title>
+    <!-- Linking the CSS file -->
+    <link href="portfolio.css" rel="stylesheet">
+<style>
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+/* Landing Section */
+.landing {
+    background: url('https://wallpaperaccess.com/full/5651990.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white(246, 253, 254);
+}
+
+.landing .content {
+    max-width: 700px;
+    padding: 20px;
+}
+
+.landing h1 {
+    font-size: 3.5rem;
+}
+
+.landing p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.landing .cta-btn {
+    text-decoration: none;
+    background-color: #FF5C8D;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.landing .cta-btn:hover {
+    background-color: #FF3B6F;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    
+}
+
+.about .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.about ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.about li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #FF5C8D;
+    padding: 50px 20px;
+    color: white;
+}
+
+.contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact button {
+    background-color: #fff;
+    color: #FF5C8D;
+    padding: 12px 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #f8f8f8;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer .social-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer .social-links li a:hover {
+    color: #FF5C8D;
+}
+</style>
+</head>
+<body>
+    <!-- Landing Section -->
+    <header class="landing">
+        <div class="content">
+            <a href="#about" class="cta-btn">My Portfolio</a>
+
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+            Hello! I'm Harismita web developer with a love for creating elegant and functional websites,
+            I Have completed my schooling at Cheran Martic Higher School,
+            And I'm doing my college in KG College Of Arts And Science. 
+            </p>
+            <h3>Skills</h3>
+            
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>UI/UX Design</li>
+                <li>Version Control (Git, GitHub)</li>
+            </ul>
+            <h3>Certifications</h3>
+            <ul>
+                <li>
+                     <a href="https://www.coursera.org/account/accomplishments/verify/7H9TA4582N15?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse">  Programming with JavaScript </a>
+                    </li>
+                <li>
+                       <a href="https://www.coursera.org/account/accomplishments/verify/BDGXVB7O7HU7?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"> HTML ,CSS, Javascript for Web developers</a>
+                    </li>
+                <li>
+                     <a href="https://www.coursera.org/account/accomplishments/verify/K5FIL18WN76L?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse">  Data Structures</a>
+                    </li>
+                <li>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/X16D0JGP3QQJ?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"> Java for Beginners: Loops & Arrays</a>
+                    </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Find me on</p>
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/harismita-ravindran-a18b8b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
+                <li><a href="https://github.com/Harismita24-R">GitHub</a></li>
+        
+            </ul>
+            <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
